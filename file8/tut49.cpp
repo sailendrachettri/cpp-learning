@@ -11,7 +11,7 @@ public:
     // Test(int i, int j) : b(j), a(i+b) // this will create problem because a was initallize first
     Test(int i, int j) : a(i), b(a + j)
     {
-        cout << "Constructor ececutec" << endl;
+        cout << "Constructor executec" << endl;
         cout << "Value of a is " << a << endl;
         cout << "Value of b is " << b << endl;
     }
