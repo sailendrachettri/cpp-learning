@@ -33,7 +33,7 @@ public:
     }
 };
 
-class Derived : public Base1, public Base2
+class Derived :  public Base1, public Base2
 {
     int derived1, derived2;
 
